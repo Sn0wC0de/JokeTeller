@@ -10,19 +10,72 @@
 <body>
     <!-- joke set -->
     
-    <div class="multiselect" id="categoryWrapper">
+    <div class="category" id="category">
+        <label class="container">Progrmaming
+            <input type="checkbox" id="cat-cb1" name="Programming" >
+            <span class="checkmark"></span>
+        </label>
           
-        <input type="checkbox" id="cat-cb1" name="Programming" ><label for="cat-cb1">Programming</label>
-        <input type="checkbox" id="cat-cb2" name="Miscellaneous"><label for="cat-cb2">Misc</label>
-        <input type="checkbox" id="cat-cb3" name="Dark"><label for="cat-cb3">Dark</label>
-        <input type="checkbox" id="cat-cb4" name="Pun"><label for="cat-cb4">Pun</label>
-        <input type="checkbox" id="cat-cb5" name="Spooky"><label for="cat-cb5">Spooky</label>
-        <input type="checkbox" id="cat-cb6" name="Christmas"><label for="cat-cb6">Christmas</label>                        
+        <label class="container">Miscellaneous
+            <input type="checkbox" id="cat-cb2" name="Miscellaneous">
+            <span class="checkmark"></span>
+        </label>
+          
+        <label class="container">Dark
+            <input type="checkbox" id="cat-cb3" name="Dark">
+            <span class="checkmark"></span>
+         </label>
+          
+        <label class="container">Pun
+            <input type="checkbox" id="cat-cb4" name="Pun">
+            <span class="checkmark"></span>
+        </label>  
+    
+        <label class="container">Spooky
+            <input type="checkbox" id="cat-cb5" name="Spooky">
+            <span class="checkmark"></span>
+        </label> 
+    
+        <label class="container">Christmas
+            <input type="checkbox" id="cat-cb6" name="Christmas">
+            <span class="checkmark"></span>
+        </label>
         
     </div>
-         
+    <div class="category" id="blacklist">
+        <label class="container">NSFW
+            <input type="checkbox" id="cat-cf1" name="nsfw" >
+            <span class="checkmark"></span>
+        </label>
+          
+        <label class="container">Religious
+            <input type="checkbox" id="cat-cf2" name="religious">
+            <span class="checkmark"></span>
+        </label>
+          
+        <label class="container">Political
+            <input type="checkbox" id="cat-cf3" name="political">
+            <span class="checkmark"></span>
+         </label>
+          
+        <label class="container">Racist
+            <input type="checkbox" id="cat-cf4" name="racist">
+            <span class="checkmark"></span>
+        </label>  
+    
+        <label class="container">Sexist
+            <input type="checkbox" id="cat-cf5" name="sexist">
+            <span class="checkmark"></span>
+        </label> 
+        <label class="container">Explicit
+            <input type="checkbox" id="cat-cf6" name="explicit">
+            <span class="checkmark"></span>
+        </label>
+    </div>
    
-    <div class="container">
+   
+
+    <div class="container2">
         <button id="button">Tell Me a Joke</button>
         <audio id="audio" controls hidden></audio>
     </div>
