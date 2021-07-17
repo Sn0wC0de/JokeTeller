@@ -20,7 +20,7 @@ body {
 }
 /* Customize the label (the container) */
 .container {
-  display: block;
+  
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
@@ -97,7 +97,7 @@ body {
   align-items: center;
   background: url('./robot.gif');
   background-size: contain;
-  background-position: center;
+  background-position:right;
   background-repeat: no-repeat;
 }
 button{ 
